@@ -1,13 +1,10 @@
-body{
-    background: black;
-    height: 100vh;
-}
-
-.heading{
+#heading{
     text-align: center;
-    background: yellow;
+    background: yellowgreen;
     padding: 10px;
     margin: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .heading-2{
@@ -15,14 +12,10 @@ body{
 }
 
 #txt-input{
-    width: 80%;
+    width: 60%;
     height: 10vh;
     display: block;
-    margin: 1rem;
-    padding: 1rem;
     min-height: 200px;
-    -webkit-box-shadow: 5px 5px 20px 0px yellow;
-    box-shadow: 5px 5px 20px 0px yellow;
     margin-left: auto;
     margin-right: auto;
 }
@@ -30,61 +23,44 @@ body{
 #output {        
     border: 1px solid black;
     height: 10vh;
-    width: 80%;
-    margin: 1rem;
-    padding: 1rem;
+    width: 60%;
     background-color: white;
     min-height: 200px;
-    -webkit-box-shadow: 5px 5px 20px 0px yellow;
-    box-shadow: 5px 5px 20px 0px yellow;
     margin-left: auto;
     margin-right: auto;
 }
 
 #btn-translate{
-        font-family: 'Ubuntu', sans-serif;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 170px;
-        height: 40px;
-        line-height: 1;
-        font-size: 18px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        border: 3px solid yellow;
-        background: yellow;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        width: 150px;
+        height: 50px;
+        background: yellowgreen;
         color: black;
         border-radius: 40px;
-        cursor: pointer;
-        overflow: hidden;
-        transition: all .35s;
+        font-size: larger;
 }
 
-#btn-translate:hover{
-        background: red;
-        color: black;
-        border: red;
-        color: white;
-}
-
-#btn-translate span{
-        opacity: 1;
-        visibility: visible;
-        transition: all .35s;
-}
-
-.footer{
-    background-color: yellow;
+#footer{
+    background: yellowgreen;
     padding: 10px;
     margin: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.heading-footer{
+#heading-footer{
     text-align: center;
 }
 
-.footer-para{
+#footer-para{
     text-align: center;
+}
+
+#info{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 1rem;
 }
